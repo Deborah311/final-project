@@ -165,11 +165,4 @@ How can we leverage big data analytics techniques to monitor, detect, and visual
 - Leverage visualization tools like Power BI to democratize cybersecurity data.
 - Encourage collaboration between governments, ISPs, and cybersecurity agencies.
 
----
 
-## 📝 Acknowledgments
-
-Special thanks to:
-- **Eric Maniraguha**, Assistant Lecturer at AUCA
-- The **CIC Research Lab**, University of New Brunswick for dataset availability  
-- **Zindi** and **Kaggle** for platform evaluatio
