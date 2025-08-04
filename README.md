@@ -87,7 +87,20 @@ How can we leverage big data analytics techniques to monitor, detect, and visual
 | 🧠 Scikit-learn  | Machine learning classification   |
 | ☁️ Google Colab  | Cloud-based Python development    |
 | 📁 GitHub        | Version control and project repo  |
+---
 
+## 📎 Screenshots
+
+
+
+<br> *🔍 Data Exploration*
+<img src="https://github.com/user/repo/assets/data_exploration.png" width="700"/>
+
+<br> *📊 Power BI Dashboard*
+
+<img width="825" height="491" alt="image" src="https://github.com/user-attachments/assets/c7356133-e3b6-4868-aa7c-b418384508c7" />
+
+---
 ---
 
 ## 📈 Key Visualizations
