@@ -94,7 +94,12 @@ How can we leverage big data analytics techniques to monitor, detect, and visual
 
 
 <br> *🔍 Data Exploration*
-<img src="https://github.com/user/repo/assets/data_exploration.png" width="700"/>
+<img width="966" height="593" alt="image" src="https://github.com/user-attachments/assets/5d171dd0-7cdf-4c85-8583-cf3f42eab5b8" />
+
+<img width="582" height="403" alt="image" src="https://github.com/user-attachments/assets/104e54e0-840d-4aa1-bef2-6d6b2e10b661" />
+
+<img width="570" height="408" alt="image" src="https://github.com/user-attachments/assets/9cfd53b2-3e88-4d70-82f2-4f8d1ccfb06e" />
+
 
 <br> *📊 Power BI Dashboard*
 <img width="871" height="510" alt="image" src="https://github.com/user-attachments/assets/83b76653-19dc-46e0-bbae-b5b6cd4f82c8" />
