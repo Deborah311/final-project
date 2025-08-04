@@ -56,22 +56,15 @@ The model’s performance is evaluated using classification metrics such as ROC-
 - **Data Structure:**
 - - **Data Status:** 
 
----
-
 ## 🧠 Tools and Technologies Used
 
 ### 🐍 Python (Jupyter Notebook)
-- Data Cleaning and Preprocessing  
-- Exploratory Data Analysis (EDA)  
-- Clustering or Classification using Scikit-learn  
-- Model Evaluation (Accuracy, Precision, etc.)
+
 
 ### 📈 Power BI
 - Dashboard Design with Filters, Slicers, and Drill-downs  
 - Visuals: Line charts, bar charts, maps, pie charts  
 - DAX Formulas and Tooltips for dynamic interactivity
-
----
 
 ## 🧪 Methodology
 
