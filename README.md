@@ -69,7 +69,8 @@ import pandas as pd
 def load_dataset(url=".Darknetsv"):
     df = pd.read_csv(url, encoding='latin1')
     return df
-
+~~~
+~~~
 load_dataset()
 # Load the dataset
 def load_dataset(path="Darknet.csv"):
