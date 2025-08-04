@@ -73,6 +73,8 @@ def load_dataset(url=".Darknetsv"):
 load_dataset()
 
 ~~~
+<img width="1097" height="549" alt="image" src="https://github.com/user-attachments/assets/5be130af-5908-4967-bbab-2c7e0a17b73c" />
+
 ### 📈 Power BI
 - Dashboard Design with Filters, Slicers, and Drill-downs  
 - Visuals: Line charts, bar charts, maps, pie charts  
