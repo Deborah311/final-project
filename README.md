@@ -56,11 +56,23 @@ The model’s performance is evaluated using classification metrics such as ROC-
 - **Data Structure:**
 - - **Data Status:** 
 
-## 🧠 Tools and Technologies Used
 
 ### 🐍 Python (Jupyter Notebook)
 
+Loading data using panda analysing dataset information
 
+<img width="368" height="150" alt="image" src="https://github.com/user-attachments/assets/17e3d6fd-bd3e-4722-b366-f95e807c5380" />
+
+~~~
+import pandas as pd
+
+def load_dataset(url=".Darknetsv"):
+    df = pd.read_csv(url, encoding='latin1')
+    return df
+
+load_dataset()
+
+~~~
 ### 📈 Power BI
 - Dashboard Design with Filters, Slicers, and Drill-downs  
 - Visuals: Line charts, bar charts, maps, pie charts  
