@@ -1,106 +1,153 @@
- Darknet Threat Detection with Python & Power BI
+# 🌐 Darknet Threat Intelligence: Big Data Analytics for Hidden Networks
 
- Capstone Project: Big Data Analytics
- 
-🚀 Overview
+![Python](https://img.shields.io/badge/Python-3.9-blue.svg)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-Notebook-orange)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Project Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-This project tackles the challenge of detecting and analyzing illicit activities on the Darknet using Big Data Analytics. 
-By leveraging data from hidden marketplaces, forums, and 
-anonymized network traffic, we build a model that identifies suspicious patterns, user behaviors, and potential threats
+## 🚀 Overview
 
+This capstone project aims to explore and analyze **Darknet activity data** to uncover hidden threats and patterns using **Big Data Analytics**. By combining the power of **Python** for data analysis and **Power BI** for visualization, this project provides a comprehensive end-to-end pipeline to understand and detect potential risks within dark web traffic and forums.
 
-🎯 Problem Statement
-How can STEG detect fraudulent activities from their customers while improving satisfaction and maintaining operational efficiency?
-
-The objective is to classify customers into two categories:
-
-Fraudulent (1)
-Not Fraudulent (0)
-Using past behavior and billing data, we aim to identify suspicious patterns using supervised machine learning models
-
-🧠 Objectives
-
-Develop a machine learning model to classify potentially malicious or suspicious darknet activities.
-
-Analyze hidden network traffic patterns, communication behavior, and marketplace/user profiles.
-
-Enhance the accuracy of threat detection to support cybersecurity analysts and law enforcement agencies.
-
-Utilize Python for modeling and Power BI for visualizing darknet activity insights.
-
-Enable real-time monitoring and actionable intelligence for proactive threat mitigation.
-
-🛠️ Tools & Technologies
-
-Python – for data preprocessing, modeling, and analysis
-
-Pandas, NumPy – for efficient data manipulation and transformation
-
-Scikit-learn, XGBoost, LightGBM – for building and tuning machine learning classification models
-
-Google Colab – as the collaborative development environment
-
-Power BI – for visualizing darknet activity trends and threat patterns
-
-Tor Network Datasets / Darknet Logs – as sources for training and testing
-
-Kaggle / Zindi / Custom Evaluation Scripts – for model evaluation and benchmarking
-
-📊 Evaluation
-The model’s performance is evaluated using classification metrics such as ROC-AUC, Precision, Recall, and F1-score, which measure how effectively the system distinguishes between malicious and benign darknet
- 
-## 📊 Dataset Information  
-- **Dataset Title:** Fraud Detection in Electricity and Gas Consumption Challenge *(replace if using a different darknet dataset)*  
-- **Source Link:** [Darknet Dataset](https://zindi.africa/competitions/fraud-detection-in-electricity-and-gas-consumption-challenge)  
-- **Number of Rows and Columns:** ~1,939,730 rows × 20 columns  
-- **Data Structure:**
-- - **Data Status:** 
-
-
-### 🐍 Python (Jupyter Notebook)
-
-Loading data using panda analysing dataset information
-
-<img width="368" height="150" alt="image" src="https://github.com/user-attachments/assets/17e3d6fd-bd3e-4722-b366-f95e807c5380" />
-
-~~~
-import pandas as pd
-
-def load_dataset(url=".Darknetsv"):
-    df = pd.read_csv(url, encoding='latin1')
-    return df
-~~~
-~~~
-load_dataset()
-# Load the dataset
-def load_dataset(path="Darknet.csv"):
-    df = pd.read_csv(path, encoding='latin1')
-    return df
-
-df_raw = load_dataset()
-df_raw.head()
-~~~
-<img width="1116" height="400" alt="image" src="https://github.com/user-attachments/assets/26fad565-9617-47c9-8b66-030394542578" />
-
-
-### 📈 Power BI
-- Dashboard Design with Filters, Slicers, and Drill-downs  
-- Visuals: Line charts, bar charts, maps, pie charts  
-- DAX Formulas and Tooltips for dynamic interactivity
-
-## 🧪 Methodology
-
-1. **Data Collection** from darknet sources  
-2. **Preprocessing:** Handle missing values, outliers, encode and scale features  
-3. **Exploratory Data Analysis (EDA):** Use charts, stats, and plots  
-4. **Modeling:** Apply ML model (e.g., clustering, classification)  
-5. **Evaluation:** Use metrics like accuracy, precision, F1-score  
-6. **Visualization:** Build Power BI dashboard  
-7. **Innovation:** Implement anomaly detection or NLP insights
+> 📚 Course: INSY 8413 | Introduction to Big Data Analytics  
+> 🧑‍🏫 Lecturer: Assistant Lecturer Eric Maniraguha  
+> 📆 Academic Year: 2024–2025, SEM III  
+> 📍 Institution: Adventist University of Central Africa (AUCA)
 
 ---
 
-## 📌 Strategic Insights
+## ❓ Problem Statement
 
-- Integrating multiple sources improves detection accuracy  
-- NLP helps uncover suspicious communication trends  
+How can we leverage big data analytics techniques to monitor, detect, and visualize suspicious activities in Darknet traffic to improve cybersecurity decision-making?
+
+---
+
+## 🎯 Objectives
+
+- 📥 Ingest and preprocess Darknet-related datasets (e.g., logs, traffic, transactions).
+- 📊 Explore data to identify anomalies, suspicious behavior, or hidden patterns.
+- 🤖 Apply ML techniques for classification of potentially malicious activities.
+- 📈 Build interactive dashboards using **Power BI** to visualize threats and indicators.
+- 📡 Provide strategic insights to help mitigate darknet-related cyber threats.
+
+---
+
+## 💡 Innovations
+
+- 🔎 **Multisource Data Fusion**: Merging structured and unstructured darknet logs to gain deeper visibility.
+- 🧠 **Threat Intelligence via ML**: Using classifiers to identify possible malicious actors or activities.
+- 📊 **Live Power BI Dashboard**: Dynamic reports for non-technical stakeholders to monitor darknet trends.
+- ⚡ **Hybrid Workflow**: Combining Python in Google Colab for backend analysis with Power BI for business insights.
+
+---
+
+## 🔍 Dataset Information
+
+- **Source**: Publicly available Darknet Traffic datasets (e.g., [CIC Darknet](https://www.unb.ca/cic/datasets/darknet.html))
+- **Rows**: 1,000,000+ entries (varies by dataset)
+- **Columns**: IP Address, Port, Protocol, Country, Timestamp, Flags, Attack Type, etc.
+- **Format**: CSV, JSON, PCAP
+
+> You may upload your dataset under the `data/` folder for reproducibility.
+
+---
+
+## 🔬 Methodology
+
+1. **Data Collection**
+   - Downloaded open-access darknet datasets
+   - Verified schema and structure
+
+2. **Preprocessing (Python & Pandas)**
+   - Null handling, normalization, data type conversion
+   - Label encoding, filtering for specific indicators
+
+3. **Exploratory Data Analysis**
+   - IP trends, attack frequency by port, countries involved
+   - Detected anomalies using visual tools and statistics
+
+4. **Machine Learning (Optional)**
+   - Logistic Regression or Decision Trees for classification
+   - ROC-AUC, Precision, Recall as evaluation metrics
+
+5. **Visualization (Power BI)**
+   - Built a real-time, filterable dashboard
+   - KPIs: Attack Frequency, Protocols, Suspicious IPs
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool            | Purpose                            |
+|-----------------|------------------------------------|
+| 🐍 Python        | Data manipulation & preprocessing  |
+| 📘 Pandas, NumPy | Data cleaning and transformation  |
+| 📊 Power BI      | Data visualization & dashboarding |
+| 🧠 Scikit-learn  | Machine learning classification   |
+| ☁️ Google Colab  | Cloud-based Python development    |
+| 📁 GitHub        | Version control and project repo  |
+
+---
+
+## 📈 Key Visualizations
+
+- Suspicious IP heatmap
+- Protocol usage distribution
+- Country-based threat sources
+- Time series of attacks
+- Flag types and anomalies
+
+*All visualizations are exported as PNGs and available in the `reports/` folder and live in the Power BI dashboard.*
+
+---
+
+## 🧪 Evaluation Metrics
+
+- **Precision & Recall**: For identifying true positive threats
+- **ROC-AUC**: For classifier effectiveness
+- **F1 Score**: For balanced threat detection
+- **Threat Surface Analysis**: Based on IP density and protocol exploitation
+
+---
+
+## 🔐 Strategic Insights
+
+- A small percentage of ports account for the majority of malicious activity.
+- Suspicious activities spike during certain time windows—indicating automation.
+- Geolocation analysis reveals regions contributing heavily to attacks.
+
+---
+
+## 🚧 Challenges Faced
+
+- 🔄 Data imbalance in malicious vs. benign entries
+- ⚙️ Difficulty in decoding obfuscated darknet data
+- 📉 Limited labeled data for supervised learning
+
+---
+
+## 🧭 Way Forward
+
+- Incorporate **Natural Language Processing (NLP)** to mine dark web forums.
+- Integrate **real-time streaming data** using tools like Apache Kafka or Spark.
+- Expand classification using ensemble methods (e.g., Random Forest, XGBoost).
+- Use advanced network analysis (e.g., graph theory) to detect actor connections.
+
+---
+
+## 📌 Recommendations
+
+- Organizations should continuously monitor darknets to stay ahead of threats.
+- Invest in automated AI/ML systems for proactive threat identification.
+- Leverage visualization tools like Power BI to democratize cybersecurity data.
+- Encourage collaboration between governments, ISPs, and cybersecurity agencies.
+
+---
+
+## 📝 Acknowledgments
+
+Special thanks to:
+- **Eric Maniraguha**, Assistant Lecturer at AUCA
+- The **CIC Research Lab**, University of New Brunswick for dataset availability  
+- **Zindi** and **Kaggle** for platform evaluatio
