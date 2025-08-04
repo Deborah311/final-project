@@ -94,7 +94,7 @@ How can we leverage big data analytics techniques to monitor, detect, and visual
 
 
 <br> *🔍 Data Exploration*
-<img width="966" height="593" alt="image" src="https://github.com/user-attachments/assets/5d171dd0-7cdf-4c85-8583-cf3f42eab5b8" />
+
 
 <img width="582" height="403" alt="image" src="https://github.com/user-attachments/assets/104e54e0-840d-4aa1-bef2-6d6b2e10b661" />
 
@@ -106,6 +106,8 @@ How can we leverage big data analytics techniques to monitor, detect, and visual
 
 
 <img width="825" height="491" alt="image" src="https://github.com/user-attachments/assets/c7356133-e3b6-4868-aa7c-b418384508c7" />
+
+<img width="966" height="593" alt="image" src="https://github.com/user-attachments/assets/5d171dd0-7cdf-4c85-8583-cf3f42eab5b8" />
 
 ---
 ---
