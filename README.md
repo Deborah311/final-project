@@ -71,9 +71,16 @@ def load_dataset(url=".Darknetsv"):
     return df
 
 load_dataset()
+# Load the dataset
+def load_dataset(path="Darknet.csv"):
+    df = pd.read_csv(path, encoding='latin1')
+    return df
 
+df_raw = load_dataset()
+df_raw.head()
 ~~~
-<img width="1097" height="549" alt="image" src="https://github.com/user-attachments/assets/5be130af-5908-4967-bbab-2c7e0a17b73c" />
+<img width="1116" height="400" alt="image" src="https://github.com/user-attachments/assets/26fad565-9617-47c9-8b66-030394542578" />
+
 
 ### 📈 Power BI
 - Dashboard Design with Filters, Slicers, and Drill-downs  
