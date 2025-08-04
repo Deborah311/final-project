@@ -34,6 +34,8 @@ How can we leverage big data analytics techniques to monitor, detect, and visual
 ---
 
 ## 💡 Innovations
+<img width="542" height="222" alt="image" src="https://github.com/user-attachments/assets/61e9a707-419c-461f-9eb0-690735fa835f" />
+
 
 - 🔎 **Multisource Data Fusion**: Merging structured and unstructured darknet logs to gain deeper visibility.
 - 🧠 **Threat Intelligence via ML**: Using classifiers to identify possible malicious actors or activities.
