@@ -111,6 +111,8 @@ How can we leverage big data analytics techniques to monitor, detect, and visual
 
 <img width="966" height="593" alt="image" src="https://github.com/user-attachments/assets/5d171dd0-7cdf-4c85-8583-cf3f42eab5b8" />
 
+<img width="734" height="556" alt="image" src="https://github.com/user-attachments/assets/fa53f092-76e3-4946-9992-a6ea6a2cccd8" />
+
 ---
 ---
 
